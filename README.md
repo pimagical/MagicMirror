@@ -1,8 +1,12 @@
-MagicMirror
+MagicMirror Landscape-&-Flickr-Branch
 ===========
 
-The super magic interface of my personal Magic Mirror. More information about this project can be found on my [blog](http://michaelteeuw.nl/tagged/magicmirror).
+Flickr add-on in landscape mode:
 
-Runs as a php script on a web server with basically no external dependencies. Can use socket.io for XBEE integration, but isn't required for basic functionality.
+Edited files:
+index.php
+css/main.css
 
-Modify js/config.js to change some general variables (language, wather location, compliments, news feed RSS) and calendar.php to add your own ICS calendar
+Added files:
+flickr.php
+js/jquery.flickrush.js
