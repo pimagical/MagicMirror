@@ -10,6 +10,8 @@
  */
 (function($){
 
+	// for adding different sizes found here https://www.flickr.com/services/api/misc.urls.html
+	// to make var defaults size: 'b' work change var imageSource ('_m.', '') to ('_m.', '_') furter down
 	$.fn.flickrush=function(options)
 	{
 		var defaults = {
@@ -53,7 +55,8 @@
 				// Loop through each image item
 				data.items.forEach(function (item, i) 
 				{
-					
+					// for adding different sizes found here https://www.flickr.com/services/api/misc.urls.html
+					// to make var defaults size: 'b' work change var imageSource ('_m.', '') to ('_m.', '_')
 					if (i <= limit-1)
 					{
 						var imageSource = item.media.m.replace('_m.', '' + defaults.size+'.');
