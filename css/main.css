@@ -61,6 +61,22 @@ body, html {
 	text-align: center;	
 }
 
+.right-hor
+{
+	position: absolute;
+	right: 50px;
+	left: 50px;
+	text-align: right;	
+}
+
+.left-hor
+{
+	position: absolute;
+	right: 50px;
+	left: 50px;
+	text-align: left;	
+}
+
 .bottom
 {
 	position: absolute;
