@@ -5,7 +5,7 @@ Flickr add-on in landscape mode:
 
 Edited files:
 
-<ul>index.php</ul>
+<li>index.php</li>
 
 css/main.css
 
