@@ -4,13 +4,9 @@ MagicMirror Landscape-&-Flickr-Branch
 Flickr add-on in landscape mode:
 
 Edited files:
-
 <li>index.php</li>
-
-css/main.css
+<li>css/main.css</li>
 
 Added files:
-
-flickr.php
-
-js/jquery.flickrush.js
+<li>flickr.php</li>
+<li>js/jquery.flickrush.js</li>
