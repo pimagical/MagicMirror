@@ -13,11 +13,11 @@
 	$.fn.flickrush=function(options)
 	{
 		var defaults = {
-			limit:3,
+			limit:1,
 			random:true,
 			id:'30005186@N02',
 			tags:false,
-			size: 'm'
+			size: ''
 		};
 
 		var options = $.extend(defaults,options)
