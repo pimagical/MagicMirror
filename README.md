@@ -1,4 +1,4 @@
-MagicMirror Landscape-&-Flickr-Branch
+MagicMirror Landscape & Flickr Branch
 ===========
 
 Flickr add-on in landscape mode:
