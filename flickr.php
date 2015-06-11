@@ -1,7 +1,10 @@
 <html>
 <head>
-<!-- page refresh -->
-<?php header( "refresh:30;" ); ?>
+	<style type="text/css">
+		<?php include('css/main.css') ?>
+	</style>
+	<!-- page refresh -->
+		<?php header( "refresh:30;" ); ?>
 </head>
 <body>
 <!-- change id with own flickr username (use http://idgettr.com/) -->			
@@ -20,6 +23,5 @@
 		});
 		</script>	
 	</div>	
-	
 </body>
 </html>
