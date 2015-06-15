@@ -189,7 +189,10 @@ jQuery(document).ready(function($) {
 			row.append($('<td/>').html(e.description).addClass('description'));
 			row.append($('<td/>').html(e.days).addClass('days dimmed'));
 			table.append(row);
-
+			
+			// maximum of 28 calendar events in gui
+			eventList.length = 28 
+			
 			opacity -= 1 / eventList.length;
 		}
 
